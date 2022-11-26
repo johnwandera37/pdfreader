@@ -1,0 +1,15 @@
+// const { PdfReader } = require("pdfreader");
+// new PdfReader().parseFileItems("hello.pdf", (err, item) => {
+//   if (err) console.error("error:", err);
+//   else if (!item) console.warn("end of file");
+//   else if (item.text)console.log(item.text)
+// });
+
+// function searchText(pdf_file){
+//     dataBuffer = fs.readFileSync(pdf_file);
+//     pdf(dataBuffer).then(function(data){
+//         console.log(data.text);
+//      }
+//     )
+// }
+// console.log(searchText('hello.pdf'));
